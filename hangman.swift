@@ -1,10 +1,24 @@
 import Foundation
 
-let word = "HARMONY"
+var allWords = [
+    "cat",
+    "dog",
+    "milk",
+    "car",
+    "engine",
+    "computer",
+    "program",
+    "poland",
+    "england",
+    "apple",
+    "orange"
+]
 var usedLetters = [Character]()
 
 print("Welcome To Hangman")
 print("Press a letter to guess, or Ctrl+D to quit")
+
+let word = allWords.first!
 
 func printWord() {
     print("\nWord: ", terminator: "")
