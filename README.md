@@ -1,5 +1,5 @@
 # A simple hangman game that you can play in the terminal.
-I built this game from [Paul Hudson](https://www.hackingwithswift.com)'s awesome [Pro Swift](https://www.hackingwithswift.com/store/pro-swift) book
+
 
 ## How To Play:
 1. Clone Repo
